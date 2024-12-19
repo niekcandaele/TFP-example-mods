@@ -12,8 +12,9 @@ Each mod can create new pages (eg the inspirational-quotes mod) and/or they can 
 
 The folder `mod-builder` contains logic to take raw source code and bundle it up in a way so that the webdashboard can use it. The script will take all folders in the `mods` directory and bundle them up separately.
 
+Ensure you have nodejs and npm installed first. The scripts have been tested with Node 16 and 18 (and their accompanying npm versions)
+
 ```sh
-# Ensure you have nodejs and npm installed first
 
 # Install the required dependencies
 npm ci
