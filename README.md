@@ -8,6 +8,8 @@ Every mod must have a `index.js` file. This is the main entrypoint. See the exam
 
 Each mod can create new pages (eg the inspirational-quotes mod) and/or they can add widgets to the map (eg the markers mod).
 
+## Building your own mod
+
 The folder `mod-builder` contains logic to take raw source code and bundle it up in a way so that the webdashboard can use it. The script will take all folders in the `mods` directory and bundle them up separately.
 
 ```sh
@@ -18,3 +20,5 @@ npm ci
 # Then build the mods
 npm run build:mods
 ```
+
+To build your own mod, make a new folder in the `mods` directory and add your source code. Then run the build script. Your built files will be in the build folder, eg `mods/inspirational-quotes/build`
