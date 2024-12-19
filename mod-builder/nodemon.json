@@ -1,0 +1,6 @@
+{
+  "watch": [
+    "../mods/*"
+  ],
+  "ext": "js,json"
+}

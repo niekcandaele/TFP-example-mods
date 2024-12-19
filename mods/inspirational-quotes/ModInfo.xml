@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Inspirational Web Quotes" />
+		<Description value="Shows inspirational quotes on the web dashboard" />
+		<Author value="Catalysm" />
+		<Version value="1" />
+		<Website value="" />
+	</ModInfo>
+</xml>
